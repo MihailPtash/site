@@ -1,0 +1,45 @@
+header {
+    height:105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    color: black;
+}
+
+header img {
+    margin:0 225px;
+    margin-bottom:10px; 
+}
+
+.text {
+    display:inline;
+    margin-right: 229px ;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.text img {
+margin: 0;
+}
+
+ul {
+list-style: none;
+margin: 0 ;
+display:fixed;
+}
+
+li {
+    cursor:pointer;
+    font-size:16px; 
+    margin:0 20px; 
+    display:inline-flex;
+  }
+
+  #olo {
+      margin:10px 22px;
+  }
+
+  #olo2 {
+      margin:10px 22px;
+  }
