@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Nexa Slab';
+    src: local('Nexa Slab Regular FREE'), local('NexaSlabRegularFREE'), url('nexaslabregularfree.woff2') format('woff2'), url('nexaslabregularfree.woff') format('woff'), url('nexaslabregularfree.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nexa Slab';
+    src: local('Nexa Slab Bold FREE'), local('NexaSlabBoldFREE'), url('nexaslabboldfree.woff2') format('woff2'), url('nexaslabboldfree.woff') format('woff'), url('nexaslabboldfree.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
