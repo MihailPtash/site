@@ -1,6 +1,6 @@
 .header{
     height:105px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid white;
@@ -12,7 +12,6 @@
 }
 
 .header__menu {
-    margin-left: 560px;
     margin-right: 229px;
 }
 
