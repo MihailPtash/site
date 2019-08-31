@@ -1,0 +1,54 @@
+.header-menu {
+    list-style: none;
+    margin: 0;
+    display: inline-flex;
+    font-size: 16px;
+    font-family: "Nexa Slab";
+    color: black;
+}
+
+.header-menu__item {
+    margin: 0 20px; 
+}
+
+.header-menu__item:first-child {
+    margin-left: 0;
+}
+
+.header-menu__item:last-child {
+    margin-right: 0;
+}
+
+.header-menu__item:after {
+    content: "";
+    display: none;
+    border-radius: 100%;
+    height:8px;
+    width:8px;
+    background: #86c840;
+    position: relative;
+    left: 50%;
+    margin-left: -4px;
+    margin-top: 6px;
+}
+
+.header-menu__item_active:after,
+.header-menu__item:hover:after {
+    display: inline-block;
+}
+
+.header-menu__item_first {
+    margin-left: 0;
+}
+
+.header-menu__item_last {
+    margin-right: 0;
+}
+
+.header-menu-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
