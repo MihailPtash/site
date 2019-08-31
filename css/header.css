@@ -1,81 +1,12 @@
 @import "http://fonts.fontstorage.com/import/nexaslab.css";
 
-.header{
+.header {
     padding: 20px 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header__logo {  
+.header__logo {
     padding-bottom: 15px;
 }
-
-.header__menu {
-    
-}
-
-/* .box {
-    height:105px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid white;
-    color:black;
-    font-family:'Nexa Slab';
-}
-
-.logotype {
-    margin:0 225px;
-    margin-bottom:15px; 
-}
-
-.navigation {
-    display:inline-flex;
-    margin-right: 229px ;
-    font-weight: bolder;
-    margin-top: 10px;
-}
-
-.houselogo {
-    margin:0;
-}
-
-.point{
-    border-radius: 100%;
-    height:8px;
-    width:8px;
-    background-color: white;
-    margin-left:auto;
-    margin-top:10px;
-    display:block;
-    margin-right: auto 
-}
-
-.houselogo:hover ~ .point {
-    display:block;  
-    margin-top:10px;  
-    background-color:green;
- }
-
-.list {
-    list-style: none;
-    margin: 0 ;
-    display:flex;
-    align-items: center;
-}
-
-.menu {
-    display:block;
-    cursor:pointer;
-    font-size:16px; 
-    margin:0 20px; 
-    position: center;
-}
-
-.menu:hover  ~.point{
-    display:block;  
-    margin-top:10px;  
-    background-color:green;
-} */
-
