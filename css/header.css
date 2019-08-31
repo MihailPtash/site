@@ -1,12 +1,13 @@
 @import "http://fonts.fontstorage.com/import/nexaslab.css";
 
 .header {
-    padding: 20px 200px;
+    padding: 40px 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .header__logo {
-    padding-bottom: 15px;
+    position: relative;
+    bottom: 10px;
 }
