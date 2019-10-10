@@ -1,0 +1,103 @@
+@import "http://fonts.fontstorage.com/import/nexaslab.css";
+
+.block_galery {
+    padding: 0px 200px;
+    display: block;
+    align-items: center;
+    background-color: white;
+}
+
+.block-galery_box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    
+}
+
+.block-galery_box_under {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.block-galery_box-puck_window {
+    display: flex;
+    border-radius: 5%;
+    height:216px;
+    width:295px;
+    background: #eeeeee;
+    align-items: flex-end;
+}
+
+.block-galery_box-puck_text-menu {
+    padding: 22px 0;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.block-galery_box-puck_text-menu_text {
+    font-size: 16px;
+    font-family: "Nexa Slab";
+    font-weight: bolder;
+}
+
+.block-galery_box-puck_text-menu_greytext {
+    font-size: 14px;
+    color: #999999;
+}
+
+.block-galery_box-puck_text-menu_button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.block-galery_box-puck_window_menu {
+    display: none;
+    height: 39px;
+    width: 97%;
+    background: #404040;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    left: 1.5%;
+    bottom: 2%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block-galery_box-puck_window:hover > .block-galery_box-puck_window_menu {
+    display: flex;
+} 
+
+.block-galery_box-puck_window-date {
+    color: white;
+}
+
+.block-galery_box-puck_window_menu_instruments {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.block-galery_box-puck_window-instrument {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px;
+}
+
+.block-galery_box-puck_window_menu_date {
+    padding: 0 12px;
+    font-size: 12px;
+}
+
+.block-galery_box-puck_window-dates {
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+

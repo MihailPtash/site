@@ -1,0 +1,31 @@
+@import "http://fonts.fontstorage.com/import/nexaslab.css";
+
+.block-fresh {
+    padding: 120px 200px;
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.block-fresh_cub {
+position: relative;
+bottom: 3px;    
+height: 60px;
+width: 7px;
+background-color: #86c840;
+}
+
+.block-fresh_box_text {
+    font-size: 36px;
+    font-family: "Nexa Slab";
+    font-weight: bolder;
+}
+
+.block-fresh_box_download {
+    font-size: 16px;
+    color: #999999;
+}
+
+.block-fresh_box {
+    padding: 0 17px;
+}
