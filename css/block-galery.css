@@ -1,7 +1,4 @@
-@import "http://fonts.fontstorage.com/import/nexaslab.css";
-
 .block_galery {
-    padding: 0px 200px;
     display: block;
     align-items: center;
     background-color: white;
@@ -43,12 +40,15 @@
 .block-galery_box-puck_text-menu_text {
     font-size: 16px;
     font-family: "Nexa Slab";
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .block-galery_box-puck_text-menu_greytext {
     font-size: 14px;
     color: #999999;
+    font-family: "Proxima Nova Light";
+    padding-top: 7px;
+    font-weight: bold;
 }
 
 .block-galery_box-puck_text-menu_button {
@@ -68,6 +68,8 @@
     bottom: 2%;
     align-items: center;
     justify-content: space-between;
+    font-family: "Proxima Nova Light";
+    font-weight: normal;
 }
 
 .block-galery_box-puck_window:hover > .block-galery_box-puck_window_menu {
