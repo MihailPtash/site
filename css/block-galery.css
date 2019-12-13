@@ -1,26 +1,19 @@
 .block_galery {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.galery-element {
     display: block;
+    width: 295px;
     align-items: center;
-    background-color: white;
+    margin: 
 }
 
-.block-galery_box {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    justify-content: space-between;
-    
-}
-
-.block-galery_box_under {
-    padding-top: 50px;
-    display: flex;
-    align-items: center;
-    background-color: white;
-    justify-content: space-between;
-}
-
-.block-galery_box-puck_window {
+.window {
     display: flex;
     border-radius: 5%;
     height:216px;
@@ -29,7 +22,7 @@
     align-items: flex-end;
 }
 
-.block-galery_box-puck_text-menu {
+.description {
     padding: 22px 0;
     display: flex;
     align-items: center;
@@ -37,13 +30,13 @@
     justify-content: space-between;
 }
 
-.block-galery_box-puck_text-menu_text {
+.description-container_text {
     font-size: 16px;
     font-family: "Nexa Slab";
     font-weight: bold;
 }
 
-.block-galery_box-puck_text-menu_greytext {
+.description-container_subject {
     font-size: 14px;
     color: #999999;
     font-family: "Proxima Nova Light";
@@ -51,15 +44,14 @@
     font-weight: bold;
 }
 
-.block-galery_box-puck_text-menu_button {
+.description_button {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.block-galery_box-puck_window_menu {
-    display: none;
-    height: 39px;
+.window-menu {
+    display: flex;
     width: 97%;
     background: #404040;
     border-radius: 0 0 5px 5px;
@@ -70,33 +62,36 @@
     justify-content: space-between;
     font-family: "Proxima Nova Light";
     font-weight: normal;
+    overflow: hidden;
+    transition: all 0.3s;
+    height: 0px;
+    font-size: 0px;
+    opacity: 0.8;
 }
 
-.block-galery_box-puck_window:hover > .block-galery_box-puck_window_menu {
-    display: flex;
+.window:hover > .window-menu {
+    height: 39px;
+    font-size: 12px;
 } 
 
-.block-galery_box-puck_window-date {
-    color: white;
-}
-
-.block-galery_box-puck_window_menu_instruments {
+.window-menu_instruments {
     display: inline-flex;
     justify-content: space-between;
 }
 
-.block-galery_box-puck_window-instrument {
+.window-menu_instruments_element {
     display: inline-flex;
     align-items: center;
     padding: 7px;
 }
 
-.block-galery_box-puck_window_menu_date {
-    padding: 0 12px;
+.window-menu_instruments_text {
+    padding: 0 4px;
     font-size: 12px;
+    color: white;
 }
 
-.block-galery_box-puck_window-dates {
+.window-menu_date_text {
     padding: 5px;
     color: white;
     font-size: 12px;
