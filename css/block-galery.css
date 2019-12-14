@@ -1,4 +1,4 @@
-.block_galery {
+.gallery {
     display: flex;
     align-items: center;
     background-color: white;
@@ -6,14 +6,14 @@
     flex-wrap: wrap;
 }
 
-.galery-element {
+.gallery__item {
     display: block;
     width: 295px;
     align-items: center;
     margin: 
 }
 
-.window {
+.galery-item__widget {
     display: flex;
     border-radius: 5%;
     height:216px;
@@ -22,7 +22,7 @@
     align-items: flex-end;
 }
 
-.description {
+.widget__description {
     padding: 22px 0;
     display: flex;
     align-items: center;
@@ -30,13 +30,13 @@
     justify-content: space-between;
 }
 
-.description-container_text {
+.description-container__text {
     font-size: 16px;
     font-family: "Nexa Slab";
     font-weight: bold;
 }
 
-.description-container_subject {
+.description-container__subject {
     font-size: 14px;
     color: #999999;
     font-family: "Proxima Nova Light";
@@ -44,13 +44,13 @@
     font-weight: bold;
 }
 
-.description_button {
+.widget-description__button {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.window-menu {
+.widget__info {
     display: flex;
     width: 97%;
     background: #404040;
@@ -69,29 +69,29 @@
     opacity: 0.8;
 }
 
-.window:hover > .window-menu {
+.galery-item__widget:hover > .widget__info {
     height: 39px;
     font-size: 12px;
 } 
 
-.window-menu_instruments {
+.widget-info__item {
     display: inline-flex;
     justify-content: space-between;
 }
 
-.window-menu_instruments_element {
+.info-item__image {
     display: inline-flex;
     align-items: center;
     padding: 7px;
 }
 
-.window-menu_instruments_text {
+.item-image__text {
     padding: 0 4px;
     font-size: 12px;
     color: white;
 }
 
-.window-menu_date_text {
+.info-date__text {
     padding: 5px;
     color: white;
     font-size: 12px;
