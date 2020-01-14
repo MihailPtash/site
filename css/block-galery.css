@@ -9,8 +9,7 @@
 .gallery__item {
     display: block;
     width: 295px;
-    align-items: center;
-    margin: 
+    align-items: center; 
 }
 
 .galery-item__widget {
