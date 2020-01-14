@@ -8,11 +8,11 @@
 }
 
 .line {
-position: relative;
-bottom: 3px;    
-height: 60px;
-width: 7px;
-background-color: #86c840;
+    position: relative;
+    bottom: 3px;    
+    height: 60px;
+    width: 7px;
+    background-color: #86c840;
 }
 
 .heading_black-text {
