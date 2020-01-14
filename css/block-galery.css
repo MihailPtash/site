@@ -9,8 +9,7 @@
 .gallery__item {
     display: block;
     width: 295px;
-    align-items: center;
-    margin: 
+    align-items: center; 
 }
 
 .galery-item__widget {
@@ -20,6 +19,10 @@
     width:295px;
     background: #eeeeee;
     align-items: flex-end;
+}
+
+.widget {
+    overflow: hidden;
 }
 
 .widget__description {
@@ -51,27 +54,25 @@
 }
 
 .widget__info {
+    padding: 5px 0;
     display: flex;
-    width: 97%;
+    width: 100%;
     background: #404040;
     border-radius: 0 0 5px 5px;
     position: relative;
-    left: 1.5%;
-    bottom: 2%;
+    left: 0;
+    bottom: 0;
     align-items: center;
     justify-content: space-between;
     font-family: "Proxima Nova Light";
-    font-weight: normal;
-    overflow: hidden;
-    transition: all 0.3s;
-    height: 0px;
-    font-size: 0px;
+    transition: transform 0.3s;
+    transform: translate(0, 100%);
+    font-size: 12px;
     opacity: 0.8;
 }
 
 .galery-item__widget:hover > .widget__info {
-    height: 39px;
-    font-size: 12px;
+    transform: translate(0, 0);
 } 
 
 .widget-info__item {
