@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+}
+
+.container_dark {
+    background-color: #f1f1f1;
+}
+
+.container__content {
+    width: 940px;
+    margin: 0 auto;
+}

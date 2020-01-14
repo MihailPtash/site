@@ -1,0 +1,100 @@
+.gallery {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery__item {
+    display: block;
+    width: 295px;
+    align-items: center;
+    margin: 
+}
+
+.galery-item__widget {
+    display: flex;
+    border-radius: 5%;
+    height:216px;
+    width:295px;
+    background: #eeeeee;
+    align-items: flex-end;
+}
+
+.widget__description {
+    padding: 22px 0;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.description-container__text {
+    font-size: 16px;
+    font-family: "Nexa Slab";
+    font-weight: bold;
+}
+
+.description-container__subject {
+    font-size: 14px;
+    color: #999999;
+    font-family: "Proxima Nova Light";
+    padding-top: 7px;
+    font-weight: bold;
+}
+
+.widget-description__button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.widget__info {
+    display: flex;
+    width: 97%;
+    background: #404040;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    left: 1.5%;
+    bottom: 2%;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Proxima Nova Light";
+    font-weight: normal;
+    overflow: hidden;
+    transition: all 0.3s;
+    height: 0px;
+    font-size: 0px;
+    opacity: 0.8;
+}
+
+.galery-item__widget:hover > .widget__info {
+    height: 39px;
+    font-size: 12px;
+} 
+
+.widget-info__item {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.info-item__image {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px;
+}
+
+.item-image__text {
+    padding: 0 4px;
+    font-size: 12px;
+    color: white;
+}
+
+.info-date__text {
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+

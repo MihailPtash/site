@@ -1,0 +1,33 @@
+@import "http://fonts.fontstorage.com/import/nexaslab.css";
+
+.block-fresh {
+    padding: 62px 0;
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.line {
+position: relative;
+bottom: 3px;    
+height: 60px;
+width: 7px;
+background-color: #86c840;
+}
+
+.heading_black-text {
+    font-size: 36px;
+    font-family: "Nexa Slab";
+    font-weight: bolder;
+}
+
+.heading_grey-text {
+    font-size: 16px;
+    color: #999999;
+    font-family: "Proxima Nova Light";
+    font-weight: bold;
+}
+
+.heading {
+    padding: 0 17px;
+}
